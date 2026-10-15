@@ -15,3 +15,16 @@
     overflow-y: scroll;
     border: black 1px solid;
 }
+
+#listContainer li {
+    cursor: pointer;
+}
+
+#listContainer li.active {
+    background: #ffe3e6;
+    font-weight: bold;
+}
+
+circle.launchpad {
+    transition: r 0.15s;
+}
